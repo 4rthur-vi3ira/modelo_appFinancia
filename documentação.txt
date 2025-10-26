@@ -1,0 +1,53 @@
+// Criação do projeto
+npx create
+
+// instalando gesture handler - Frame motion e reanimated
+npm install framer-motion react-native-reanimated react-native-gesture-handler
+
+// Instalação e configuração do expo router
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+// instalando react-dom WEB
+npx expo install react-native-web react-dom
+
+// Instalando o drawer 
+npx expo install @react-navigation/drawer react-native-reanimated react-native-worklets
+
+// Instalando Vextor icons
+npm install @expo/vector-icons
+//Lista de icones
+https://icons.expo.fyi/Index
+
+//Intalar Picker
+npm install @react-native-picker/picker
+
+
+
+npm install --save-dev @types/react @types/react-native
+
+
+
+//Estrurura das pastas
+/app
+  /(auth)
+    login.tsx
+    register.tsx
+  /(tabs)
+    index.tsx
+    usuario.tsx
+    dolar.tsx
+  /(drawer)
+    rf.tsx
+    rv.tsx
+    cripto.tsx
+    nivelamento.tsx
+  /splash.tsx
+  /_layout.tsx
+  /_splash.tsx
+/assets
+/components
+
+
+
+git config --global user.email "prof.adrianopereirasilva@gmail.com"
+  git config --global user.name "Adriano Pereira"
