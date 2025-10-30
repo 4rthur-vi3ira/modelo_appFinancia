@@ -11,10 +11,10 @@ export default function TabsLayout() {
       <Tabs.Screen name="index" options={{ title:'Início', tabBarIcon:({color,size})=>
         <Entypo name="shopping-cart" size={24} color="white" /> }} />
 
-  <Tabs.Screen name="cursosFinanceiros" options={{ title:'Cursos Financeiros', tabBarIcon:({color,size})=>
+  <Tabs.Screen name="cursosFinanceiros" options={{ title:'Cursos Financeiro', tabBarIcon:({color,size})=>
         <MaterialCommunityIcons name="finance" size={24} color="white" /> }} />
         
-        <Tabs.Screen name="sensores" options={{ title:'Sensores', tabBarIcon:({color,size})=>
+        <Tabs.Screen name="adm" options={{ title:'Administrador', tabBarIcon:({color,size})=>
         <Entypo name="home" size={24} color="white" /> }} />
 
       <Tabs.Screen name="usuario" options={{ title:'Usuário', tabBarIcon:({color,size})=>
@@ -26,7 +26,8 @@ export default function TabsLayout() {
       <Tabs.Screen name="SimuladorFinanceiro" options={{ title:'Financeiro', tabBarIcon:({color,size})=>
         <Octicons name="graph" size={24} color="white"  /> }} />
         
-        
+        <Tabs.Screen name="conteudo" options={{ title:'Conteudo', tabBarIcon:({color,size})=>
+        <MaterialCommunityIcons name="finance" size={24} color="white" /> }} />
     </Tabs>
   )
 }
