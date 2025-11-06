@@ -14,7 +14,7 @@ export default function App() {
               <View style={styles.container}>
                 <View style={styles.box1}>
                   <Text style={styles.text}>Renda Fixa</Text>
-                  <Image style={styles.img} />
+                  <Image style={styles.img} source={require('../../assets/conteudos/renda_fixa.png')} />
                   <View style={styles.buttons}>
                     <Link href={"/(stack)/rendafixa"} asChild>
                       <Button title="Entrar" onPress={() => {}} />
@@ -24,17 +24,17 @@ export default function App() {
 
                 <View style={styles.box2}>
                   <Text style={styles.text}>Renda Variável</Text>
-                  <Image style={styles.img} />
+                  <Image style={styles.img} source={require('../../assets/conteudos/renda_variavel.png')} />
+                  <Link href={"/(stack)/rendavariavel"} asChild>
                   <View style={styles.buttons}>
-                    <Link href={"/(stack)/rendavariavel"} asChild>
                       <Button title="Entrar" onPress={() => {}} />
-                    </Link>
-                  </View>
+                    </View>
+                  </Link>
                 </View>
 
                 <View style={styles.box3}>
                   <Text style={styles.text}>Cripto</Text>
-                  <Image style={styles.img} />
+                  <Image style={styles.img} source={require('../../assets/conteudos/cripto.png')} />
                   <View style={styles.buttons}>
                     <Link href={"/(stack)/cripto"} asChild>
                       <Button title="Entrar" onPress={() => {}} />
@@ -115,12 +115,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5C849',
    },
   buttons: {
-    width: 80,
-    height: 40,
-    borderRadius: 20,
     marginTop:2,
     marginBottom:10,
-    backgroundColor: '#36B5F5',
     justifyContent: 'center',
   },
 });

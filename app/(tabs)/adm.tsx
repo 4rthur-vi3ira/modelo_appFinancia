@@ -66,6 +66,10 @@ const styles = StyleSheet.create({
   section: {
     width: '100%',
     marginBottom: 10,
+    borderColor: '#0f0f0fff',
+    borderWidth: 1,
+    borderRadius: 8,
+    padding: 10,
   },
   label: {
     fontWeight: 'bold',
