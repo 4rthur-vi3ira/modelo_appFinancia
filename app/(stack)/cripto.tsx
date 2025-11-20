@@ -12,23 +12,12 @@ export default function App() {
       <ScrollView>
         <View style={styles.container1}>
           <View style={styles.box}>
-          <Text style={styles.title}> O que é renda fixa </Text>
+          <Text style={styles.title}> O que é Cripto moedas </Text>
             <Text style={styles.text}>
-              A renda fixa
-              é uma opção de investimento segura e previsível, ideal para perfis
-              conservadores. Inclui ativos como títulos públicos, CDBs, LCIs e
-              LCAs, com regras de remuneração definidas. Oferece baixo risco e
-              pode contar com a proteção do FGC até R$ 250 mil por instituição.
-              Alguns investimentos têm liquidez diária, permitindo resgates
-              rápidos. A rentabilidade pode ser prefixada, pós-fixada ou
-              híbrida, conforme o objetivo do investidor. Prefixada garante
-              retorno fixo; pós-fixada depende de índices como Selic ou CDI.
-              Híbrida combina taxa fixa com variação de índice, como o IPCA. É
-              essencial entender os prazos e a liquidez antes de investir. O
-              Tesouro Direto é uma porta de entrada acessível para iniciantes.
-              Com planejamento e disciplina, a renda fixa ajuda na construção de
-              patrimônio. --- Se quiser, posso transformar esse resumo em um
-              post para redes sociais ou uma explicação em vídeo!
+            As criptomoedas são moedas digitais criadas a partir da tecnologia blockchain, que garante segurança e transparência nas transações. 
+            Elas funcionam de forma descentralizada, sem depender de bancos ou governos para validar operações. O Bitcoin, lançado em 2009, foi a primeira criptomoeda e continua sendo a mais conhecida. 
+            Outras moedas, como o Ethereum, oferecem recursos adicionais, como contratos inteligentes. Hoje, são utilizadas para pagamentos, investimentos e até novos modelos de negócios digitais. A
+            pesar do potencial, apresentam riscos como alta volatilidade, regulamentação incerta e possibilidade de fraudes.
             </Text>
           </View>
         </View>

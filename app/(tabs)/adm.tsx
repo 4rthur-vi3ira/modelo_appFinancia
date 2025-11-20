@@ -65,11 +65,17 @@ const styles = StyleSheet.create({
   },
   section: {
     width: '100%',
-    marginBottom: 10,
-    borderColor: '#0f0f0fff',
+    marginBottom: 15,
+    borderColor: '#ddd',
     borderWidth: 1,
-    borderRadius: 8,
-    padding: 10,
+    borderRadius: 10,
+    padding: 12,
+    backgroundColor: '#f9f9f9',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3, 
   },
   label: {
     fontWeight: 'bold',
@@ -80,4 +86,3 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
-

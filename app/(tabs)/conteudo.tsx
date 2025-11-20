@@ -9,7 +9,7 @@ export default function App() {
       <ScrollView>
         <View style={styles.container}>
           <View style={styles.container1}>
-          <Text style={styles.text1}> Pagina Inicial</Text>
+          <Text style={styles.text1}> Cursos </Text>
             <ScrollView>
               <View style={styles.container}>
                 <View style={styles.box1}>
@@ -37,7 +37,7 @@ export default function App() {
                   <Image style={styles.img} source={require('../../assets/conteudos/cripto.png')} />
                   <View style={styles.buttons}>
                     <Link href={"/(stack)/cripto"} asChild>
-                      <Button title="Entrar" onPress={() => {}} />
+                      <Button title="Entrar" onPress={() => {}} color="#1976D2" />
                     </Link>
                   </View>
                 </View>
@@ -58,11 +58,13 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 16,
     textAlign: 'center',
+    marginTop: 10,
   },
    text1: {
-    fontSize: 16,
+    fontSize: 20,
     textAlign: 'center',
-    marginTop: 40,
+    marginTop: 30,
+    marginBottom: 30,
   },
   container1: {
     paddingTop: StatusBar.currentHeight,
@@ -114,9 +116,18 @@ const styles = StyleSheet.create({
     margin: 10,
     backgroundColor: '#F5C849',
    },
-  buttons: {
-    marginTop:2,
-    marginBottom:10,
+   buttons: {
+    marginTop: 10, // Maior espaçamento superior
+    marginBottom: 20, // Maior espaçamento inferior
     justifyContent: 'center',
+    alignItems: 'center', // Centraliza o conteúdo horizontalmente
+    padding: 10, // Adiciona espaçamento interno
+    backgroundColor: '#f5f5f5', // Fundo suave para destacar a seção
+    borderRadius: 8, // Bordas arredondadas
+    shadowColor: '#000', // Sombra para iOS
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3, // Sombra para Android
   },
 });
